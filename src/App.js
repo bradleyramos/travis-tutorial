@@ -11,7 +11,6 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/email" component={CustomizedInputs} />
       </Switch>
-      <BadChange />
     </Router>
   );
 }
